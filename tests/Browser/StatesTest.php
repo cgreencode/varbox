@@ -608,7 +608,7 @@ class StatesTest extends TestCase
         $this->admin->grantPermission('states-list');
         $this->admin->grantPermission('states-edit');
 
-        $this->createCountry();g
+        $this->createCountry();
         $this->createState();
 
         $this->browse(function ($browser) {
